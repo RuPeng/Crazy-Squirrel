@@ -1,0 +1,38 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Crazy_Squirrel.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.RowSpan="2">
+            <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Img/BackGround.jpg"/>
+            </Grid.Background>
+            <Button Name="btnPlay" Grid.Row="0" Width="236" Height="101" Content="Play" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,361,0,-102" Click="btnPlay_Click" Foreground="Black" BorderBrush="Black" FontFamily="Comic Sans MS" />
+            <TextBlock Name="txtWarning" HorizontalAlignment="Left" TextAlignment="Center" Foreground="Red" Margin="10,329,0,0" TextWrapping="Wrap" Text="Sorry! Your Phone does not have Accelerometer!" VerticalAlignment="Top" Visibility="Collapsed" Width="780"/>
+            <TextBlock Name="txtShow" Foreground="Black" Text="Longest Distance" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Top" Margin="279,295,0,0" Width="236" Height="66"/>
+            <TextBlock Name="txtBest" Foreground="Black" Text="0m" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Top" Margin="279,329,0,0" Width="236" Height="29"/>
+            <Image Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="60" Width="60" Source="/Img/Nut.png"></Image>
+            <TextBlock Name="txtNuts" VerticalAlignment="Top" HorizontalAlignment="Center" Height="60" Width="90" Margin="0,50,0,0" Foreground="Black" Text="0" TextAlignment="Center" FontSize="30"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.RowSpan="2" TextAlignment="Center" VerticalAlignment="Bottom" Text="Lean your device to control the squirrel!" Foreground="Red" HorizontalAlignment="Center"></TextBlock>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

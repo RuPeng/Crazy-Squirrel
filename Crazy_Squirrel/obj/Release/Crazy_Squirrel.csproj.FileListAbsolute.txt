@@ -1,0 +1,14 @@
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\Bin\Release\ApplicationIcon.png
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\Bin\Release\Background.png
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\Bin\Release\Crazy_Squirrel.dll
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\Bin\Release\Crazy_Squirrel.pdb
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\Bin\Release\AppManifest.xaml
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\Bin\Release\Crazy_Squirrel.xap
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\Crazy_Squirrel.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\App.g.cs
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\MainPage.g.cs
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\Play.g.cs
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\Crazy_Squirrel.g.resources
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\Crazy_Squirrel.dll
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\Crazy_Squirrel.pdb
+C:\Users\Ru\Documents\visual studio 2012\Projects\Crazy_Squirrel\Crazy_Squirrel\obj\Release\XapCacheFile.xml
